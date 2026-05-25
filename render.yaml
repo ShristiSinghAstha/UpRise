@@ -1,0 +1,41 @@
+services:
+  # ----------------------------------------------------
+  # UpRise Backend API Service
+  # ----------------------------------------------------
+  - type: web
+    name: uprise-backend
+    env: docker
+    dockerContext: ./backend
+    dockerfilePath: Dockerfile
+    dockerfilter: production
+    plan: free
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false
+        placeholder: "Enter MongoDB Atlas connection string (mongodb+srv://...)"
+      - key: JWT_SECRET
+        generateValue: true
+    healthCheckPath: /
+
+  # ----------------------------------------------------
+  # UpRise Frontend Router Service (Serves static SPA)
+  # ----------------------------------------------------
+  - type: web
+    name: uprise-frontend
+    env: docker
+    dockerContext: ./frontend
+    dockerfilePath: Dockerfile
+    dockerfilter: production
+    plan: free
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          name: uprise-backend
+          type: web
+          property: host
+    healthCheckPath: /

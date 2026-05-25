@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "router": "^2.2.0"
+  }
+}

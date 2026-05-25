@@ -1,0 +1,31 @@
+Starting data seed...
+Connecting to mongodb://127.0.0.1:27017/UpRise...
+Connected to DB
+Cleared existing lessons
+Cleared existing courses
+Created Course: Electrical Wiring Basics
+  - Added Lesson: Installing a junction box and pulling wire
+  - Added Lesson: Cutting, Stripping and Connecting wire
+  - Added Lesson: Wire to Wire Splices
+  - Added Lesson: Connecting Wire to a terminal Connection
+  - Added Lesson: How to Install an outlet at end of circuit
+Created Course: Plumbing Essentials
+  - Added Lesson: A lesson about some of the basic hand tools used in plumbing
+  - Added Lesson: Let's learn about a couple of plumbing power tools
+  - Added Lesson: A lesson about copper plumbing materials
+  - Added Lesson: A lesson about plumbing with copper in a basic plumbing system
+  - Added Lesson: A lesson about iron pipe as a plumbing material
+Created Course: Professional English
+  - Added Lesson: Learn New Words With Proverbs and Idioms
+  - Added Lesson: Sentence and Its Parts
+  - Added Lesson: Let's Talk - Conversation Practice
+  - Added Lesson: Common Pronunciation Mistakes
+  - Added Lesson: Parts of Speech
+Created Course: Computer Literacy
+  - Added Lesson: COMPUTER TRAINING FOR BEGINNERS
+  - Added Lesson: COMPUTER PORTS
+  - Added Lesson: FUNCTIONS OF THE COMPUTER KEYBOARD KEYS
+  - Added Lesson: BEST APPROACH TO ORGANIZE YOUR COMPUTER FILES
+  - Added Lesson: POWERPOINT TRAINING FOR BEGINNERS
+Seeding finished.
+FINAL COUNTS - Courses: 4, Lessons: 20
