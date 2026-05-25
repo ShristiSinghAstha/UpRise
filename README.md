@@ -13,7 +13,11 @@ UpRise is a modern skill-learning and career growth platform designed to help us
 ⚡ Fast and Scalable Architecture
 🔔 Notifications & Updates
 📊 Performance Monitoring & Analytics
+
+
 🛠️ Tech Stack
+
+
 Frontend:
 HTML
 CSS
@@ -30,6 +34,7 @@ Docker
 GitHub Actions (CI/CD)
 Grafana Monitoring
 
+
 🔄 CI/CD Pipeline
 
 UpRise uses GitHub Actions for:
@@ -45,14 +50,20 @@ The project includes monitoring support using:
 Grafana
 Metrics Dashboards
 Production Monitoring Configurations
+
+
 🤝 Contributing
 
 Contributions are welcome!
 
 Fork the repository
+
 Create a new branch
+
 Commit your changes
+
 Push the branch
+
 Open a Pull Request
 
 📄 License
